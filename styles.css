@@ -9,6 +9,8 @@ li {
   padding: 20px;
   color: #fff;
   background-color: lightgrey;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .menu {
@@ -20,4 +22,28 @@ li {
 .logo {
   font-size: 32px;
   color: black;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: lightgrey;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: blue;
+font-size: 16px;
+text-align: center;
+color: white;
+padding: 10px 15px;
+outline: none;
 }
