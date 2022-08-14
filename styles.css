@@ -47,8 +47,9 @@ color: #1f2937 ;
   margin: 6em 4em;
   grid-gap: 2em;
 grid-template-columns: repeat(2, 1fr);
-grid-auto-rows:  1fr;
+grid-auto-rows: 1 1fr;
 color: lightgrey;
+vertical-align: middle;
 }
 
 .grid1 {
@@ -58,21 +59,30 @@ border-radius: 8px;
 color: white;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.headersubtext {
+  font-size: 18px;
+  font-weight: 100;
+}
+
 .grid1 a:link, a:visited {
   text-decoration: none;
   display:inline-grid;
   text-align: center;
-  border: 4px solid blue;
-  background-color: blue;
+  border: 4px solid #3882f6;
+  background-color: #3882f6;
   color: white;
   border-radius: 8px;
   padding: 0.25em 1em;
 }
 
-}
-
 .grid2 {
   background-color: grey;
+text-align: center;
 }
 
 .grid3 {
@@ -128,6 +138,7 @@ margin-right: 4em;
   margin: 1em 4em;
   display: grid;
   outline: 2px solid green;
+  color: lightgrey;
 }
 
 .grid5{
