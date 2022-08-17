@@ -14,6 +14,16 @@ header {
   background-color: #1f2937;
 }
 
+img {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  align-content: center;
+}
+
+img a:hover {
+  border: 4px solid red;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -73,7 +83,7 @@ h1 {
   text-decoration: none;
   display:inline-grid;
   text-align: center;
-  border: 4px solid #3882f6;
+  border: 2px solid #3882f6;
   background-color: #3882f6;
   color: white;
   border-radius: 8px;
@@ -81,6 +91,7 @@ h1 {
 }
 
 .grid2 {
+  line-height: 300px;
   background-color: grey;
 text-align: center;
 }
@@ -99,67 +110,75 @@ text-align: center;
   grid-column-gap: 2em;
 }
 
-.box1 {
-  outline: 2px solid green;
-  text-align: center;
-margin-left: 4em;
-  border-radius: 8px;
-transition-property: width, height;
-transition-duration: 1s, 1s;
-}
 
-.box1 a:hover {
-  outline: 4px solid black;
-  width: 200px;
+.box1 {
+  text-align: center;
+  border-radius: 8px;
+
 }
 
 .box2 {
-  outline: 2px solid green;
     text-align: center;
-    padding: 6em;
     border-radius: 8px;
 }
 
 .box3 {
-  outline: 2px solid green;
     text-align: center;
-    padding: 6em;
     border-radius: 8px;
 }
 
 .box4 {
-  outline: 2px solid green;
     text-align: center;
-margin-right: 4em;
     border-radius: 8px;
 }
 
 .grid4 {
-  margin: 1em 4em;
+  font-size: 24px;
+  font-style: italic;
+  margin: 2em 4em;
   display: grid;
-  outline: 2px solid green;
   color: lightgrey;
 }
 
-.grid5{
+.grid5 {
+  font-size: 18px;
+  margin: 0em 4em;
+  color: lightgrey;
+  font-weight: 700;
+  text-align: right;
+}
+
+.grid6{
   color: lightgrey;
 }
 .grid-container3 {
   margin: 1em 4em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  outline: 2px solid green;
   border-radius: 5px;
+  background-color: #3882f6;
 }
 
 .bottom1 {
 text-align: center;
 padding: 1em;
+color: lightgrey;
 }
 
 .bottom2 {
   text-align: center;
-  padding: 1em;
+  padding: 2em;
+}
+
+.bottom2 a:link, a:visited {
+  text-decoration: none;
+  display:inline-grid;
+  text-align: center;
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 0.25em 1em;
 }
 
 footer {
